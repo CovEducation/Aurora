@@ -3696,11 +3696,6 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/q@^0":
-  version "0.0.39"
-  resolved "https://registry.yarnpkg.com/@types/q/-/q-0.0.39.tgz#3425373c82369b1b85e97d4fa13dc0ff0ec50ecb"
-  integrity sha512-HuQo4yur2M0GUsEDybDpGpd6JXwCaN2qcHoy0HU3+Bv9G13VVBQkY0GlFcmmtUn8iAPThxYA6z+MkPV0igOiKQ==
-
 "@types/q@^1.5.1":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
@@ -3835,14 +3830,12 @@
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.1.tgz#83ecf4ec22a8c218c71db25f316619fe5b986011"
   integrity sha512-7cTXwKP/HLOPVgjg+YhBdQ7bMiobGMuoBmrGmqwIWJv8elC6t1DfVc/mn4fD9UE1IjhwmhaQ5pGVXkmXbH0rhg==
 
-"@types/twilio@^2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@types/twilio/-/twilio-2.11.0.tgz#b98afd6312436a096f47de55b14d0bf852eadfec"
-  integrity sha512-hPuujay9boqWQuDdcnT02DnINl1tSz6m8K/o1gY31fjRDGybTC4s3mPbFSlF1LQ9H0yo3tzgYfa0cERRYsZiqA==
+"@types/twilio@^3.19.3":
+  version "3.19.3"
+  resolved "https://registry.yarnpkg.com/@types/twilio/-/twilio-3.19.3.tgz#dda809e4626bf187a4c5028517aea74f3c2fa8e1"
+  integrity sha512-W53Z0TDCu6clZ5CzTWHRPnpQAad+AANglx6WiQ4Mkxxw21o4BYBx5EhkfR6J4iYqY58rtWB3r8kDGJ4y1uTUGQ==
   dependencies:
-    "@types/express" "*"
-    "@types/node" "*"
-    "@types/q" "^0"
+    twilio "*"
 
 "@types/yargs-parser@*":
   version "20.2.1"
@@ -17988,7 +17981,7 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-twilio@^3.55.1:
+twilio@*, twilio@^3.55.1:
   version "3.66.0"
   resolved "https://registry.yarnpkg.com/twilio/-/twilio-3.66.0.tgz#8df54865b16b3b0578826cf4f342542daa1227c4"
   integrity sha512-2jek7akXcRMusoR20EWA1+e5TQp9Ahosvo81wTUoeS7H24A1xbVQJV4LfSWQN4DLUY1oZ4d6tH2oCe/+ELcpNA==
